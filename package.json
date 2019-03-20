@@ -1,28 +1,28 @@
 {
-  "name": "forkify",
+  "name": "forkify-rec",
   "version": "1.0.0",
-  "description": "forkify project",
+  "description": "recipes project",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "author": "Jonas Schmedtmann",
+  "author": "Vinojak",
   "license": "ISC",
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "html-webpack-plugin": "^3.0.7",
-    "webpack": "^4.2.0",
-    "webpack-cli": "^2.0.12",
-    "webpack-dev-server": "^3.1.1"
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "axios": "^0.18.0",
-    "babel-polyfill": "^6.26.0",
     "fractional": "^1.0.0",
-    "uniqid": "^4.1.1"
+    "uniqid": "^5.0.3"
   }
 }
